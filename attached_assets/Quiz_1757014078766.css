@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  background-color: #f5f7fb;
+  height: 100%;
+  overflow: hidden;
+}
+
+.quiz {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  width: 1000px;
+}
+
+.question {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  color: #293264;
+  padding-top: 8px;
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.options {
+  text-align: left;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.check-btn {
+  opacity: 0;
+  position: relative;
+  top: 2px;
+}
+
+label {
+  border-radius: 10px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  text-align: center;
+  width: 100%;
+  transition: 0.3s ease;
+
+  background: #f5f7fb;
+  border: 0.794239px solid #4d5b9e;
+  box-sizing: border-box;
+  border-radius: 7.94239px;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding: 5px 10px 5px 10px;
+}
+
+label:hover,
+label[data-chosen="true"] {
+  transition: 1s all;
+  background-color: #d6dbf5;
+  cursor: pointer;
+}
+
+label[data-chosen="true"] {
+  border: none;
+  transition: 3s all;
+}
+
+.text-inner {
+  position: relative;
+  right: 10px;
+}
+
+label + label {
+  margin-left: 0.5rem;
+  margin-top: 10px;
+}
+
+.correct-option {
+  background-color: #94d7a2 !important;
+  border: none;
+  color: #293264;
+  transition: 0.1s all;
+}
+
+label.disabled-options:hover {
+  background-color: #4d5b9e;
+}
+
+label.correct-option:hover {
+  background-color: #94d7a2;
+}
+
+.disabled-options {
+  opacity: 0.5;
+  border: 0.794239px solid #4d5b9e;
+  box-sizing: border-box;
+  border-radius: 7.94239px;
+}
+
+.wrong-option {
+  opacity: 0.5;
+  background: #f8bcbc;
+  border-radius: 7.71045px;
+}
+
+label.wrong-option:hover {
+  background-color: #f8bcbc !important;
+}

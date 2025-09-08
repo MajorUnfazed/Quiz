@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+hr {
+  border: 0.794239px solid #dbdef0;
+}
+
+.top-blob {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: scale(1.5);
+
+  z-index: -1;
+}
+
+.bottom-blob {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: scale(1.5);
+
+  z-index: -1;
+}
+
+.check-answers-btn {
+  position: relative;
+
+  width: 120px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4d5b9e;
+
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 11px;
+  line-height: 12px;
+
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+
+  text-align: center;
+
+  color: #f5f7fb;
+}
+
+.check-answers-btn:active {
+  -webkit-box-shadow: inset 1px 1px 10px #333;
+  -moz-box-shadow: inset 1px 1px 10px #333;
+  box-shadow: inset 1px 1px 10px #333;
+}
+
+.results {
+  font-family: Inter;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+}
+
+.new-game-btn {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10.24px;
+  line-height: 12px;
+
+  text-align: center;
+
+  color: #f5f7fb;
+
+  background: #4d5b9e;
+  border-radius: 10px;
+  width: 104px;
+  height: 30px;
+  margin-left: 10px;
+
+  border: none;
+}
+
+.urge-to-select {
+  font-family: Karla;
+  position: relative;
+  bottom: 0;
+  text-align: center;
+}

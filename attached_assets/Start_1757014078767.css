@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  transition: all 0.1 ease;
+}
+
+.start {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header {
+  font-family: "Karla";
+  font-weight: 700;
+  font-size: 31.25px;
+  font-style: normal;
+
+  line-height: 37px;
+
+  color: #293264;
+}
+
+.desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 19px;
+  text-align: center;
+
+  color: #293264;
+}
+
+.start-btn {
+  width: 193px;
+  height: 52px;
+  border-radius: 15px;
+  border: none;
+  background-color: #4d5b9e;
+
+  font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #f5f7fb;
+}
+
+.start-btn:active {
+  -webkit-box-shadow: inset 1px 1px 10px #333;
+  -moz-box-shadow: inset 1px 1px 10px #333;
+  box-shadow: inset 1px 1px 10px #333;
+}
